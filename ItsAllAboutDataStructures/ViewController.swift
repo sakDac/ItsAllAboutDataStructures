@@ -21,6 +21,8 @@ class ViewController: UIViewController {
     
     //MARK : SORTING
     //Ref :: https://medium.com/@EnnioMa/back-to-the-fundamentals-sorting-algorithms-in-swift-from-scratch-fccf8a3daea3
+    //Ref :: https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/
+    
     func bubbleSort() {
         var count = 0
         for j in 0 ..< self.arr.count {
@@ -36,28 +38,6 @@ class ViewController: UIViewController {
         }
         print(" arr : Sorted : \(self.arr)")
     }
-    
-    func <#name#>(<#parameters#>) -> <#return type#> {
-        <#function body#>
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     // MARK : Miscellaneous Ques;
     
@@ -104,9 +84,6 @@ class ViewController: UIViewController {
                 print("arr[abs(arr[i])] :: \(arr[abs(arr[i])])")
             }
         }
-        
-        
-        
     }
     
    
