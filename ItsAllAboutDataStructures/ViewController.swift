@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     
     
     //MARK : SORTING
-    
+    //Ref :: https://medium.com/@EnnioMa/back-to-the-fundamentals-sorting-algorithms-in-swift-from-scratch-fccf8a3daea3
     func bubbleSort() {
         var count = 0
         for j in 0 ..< self.arr.count {
@@ -36,6 +36,28 @@ class ViewController: UIViewController {
         }
         print(" arr : Sorted : \(self.arr)")
     }
+    
+    func <#name#>(<#parameters#>) -> <#return type#> {
+        <#function body#>
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     // MARK : Miscellaneous Ques;
     
@@ -72,7 +94,6 @@ class ViewController: UIViewController {
     }
     
     // using one loop and 1 temp array
-    
     func twoRepeatingElements3(){
         var arr = [1, 2, 3, 1, 3, 6, 6]
         for i in 0 ..< arr.count {
@@ -87,6 +108,8 @@ class ViewController: UIViewController {
         
         
     }
+    
+   
     
 }
 
