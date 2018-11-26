@@ -8,38 +8,25 @@
 
 import UIKit
 
+class saket {
+    
+}
+
 class ViewController: UIViewController {
     
-    var arr = [322, 90, 68, 65, 45, 43, 23, 11, 3, 1, 90, 45]
+    var arr = [23, 11, 3, 1, 90, 45]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //        self.bubbleSort()
-        self.twoRepeatingElements3()
+//       print(self.arr.emMergeSort())
+        
     }
-    
     
     //MARK : SORTING
     //Ref :: https://medium.com/@EnnioMa/back-to-the-fundamentals-sorting-algorithms-in-swift-from-scratch-fccf8a3daea3
     //Ref :: https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/
     
-    func bubbleSort() {
-        var count = 0
-        for j in 0 ..< self.arr.count {
-            for i in 0 ..< self.arr.count-j-1 {
-                if self.arr[i] > self.arr[i+1]  {
-                    let temp = self.arr[i]
-                    self.arr[i] = self.arr[i+1]
-                    self.arr[i+1] = temp
-                    count += 1
-                    print("count :: \(count)")
-                }
-            }
-        }
-        print(" arr : Sorted : \(self.arr)")
-    }
-    
-    // MARK : Miscellaneous Ques;
+       // MARK : Miscellaneous Ques;
     
     /* Find the two repeating elements in a given array */
     
