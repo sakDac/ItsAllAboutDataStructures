@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3A51CFF521AC5D1500741E04 /* SingleLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A51CFF421AC5D1500741E04 /* SingleLinkedList.swift */; };
+		3A676D9C21B3BF03000483C3 /* DoubleLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A676D9B21B3BF03000483C3 /* DoubleLinkedList.swift */; };
 		3A86737D218AE24F00E98328 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A86737C218AE24F00E98328 /* AppDelegate.swift */; };
 		3A86737F218AE24F00E98328 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A86737E218AE24F00E98328 /* ViewController.swift */; };
 		3A867382218AE24F00E98328 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A867380218AE24F00E98328 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		3A51CFF421AC5D1500741E04 /* SingleLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLinkedList.swift; sourceTree = "<group>"; };
+		3A676D9B21B3BF03000483C3 /* DoubleLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleLinkedList.swift; sourceTree = "<group>"; };
 		3A867379218AE24F00E98328 /* ItsAllAboutDataStructures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItsAllAboutDataStructures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A86737C218AE24F00E98328 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A86737E218AE24F00E98328 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				3A867388218AE25200E98328 /* Info.plist */,
 				A1B377A6218C51E80089DE1E /* ArrayExtensions.swift */,
 				3A51CFF421AC5D1500741E04 /* SingleLinkedList.swift */,
+				3A676D9B21B3BF03000483C3 /* DoubleLinkedList.swift */,
 			);
 			path = ItsAllAboutDataStructures;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A676D9C21B3BF03000483C3 /* DoubleLinkedList.swift in Sources */,
 				3A86737F218AE24F00E98328 /* ViewController.swift in Sources */,
 				A1B377A7218C51E80089DE1E /* ArrayExtensions.swift in Sources */,
 				3A51CFF521AC5D1500741E04 /* SingleLinkedList.swift in Sources */,

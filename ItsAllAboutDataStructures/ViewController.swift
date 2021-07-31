@@ -20,6 +20,16 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 //       print(self.arr.emMergeSort())
         
+        var dll = DoubleLinkedList<String>()
+        dll.append(value: "saket 1")
+        dll.append(value: "saket 2")
+        dll.append(value: "saket 3")
+        dll.append(value: "saket 5")
+        dll.append(value: "saket 4")
+        
+        print(" running... ")
+        print(dll)
+        
     }
     
     //MARK : SORTING
